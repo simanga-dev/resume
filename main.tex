@@ -1,7 +1,6 @@
-
 \documentclass[a4paper,8pt]{article}
 
-\usepackage{parskip} 
+\usepackage{parskip}
 \usepackage{hologo}
 \usepackage{fontspec}
 
@@ -18,7 +17,7 @@
 \usepackage{enumitem}
 
 % centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\newcolumntype{C}{>{\centering\arraybackslash}X}
 
 %to prevent spillover of tabular into next pages
 \usepackage{supertabular}
@@ -27,11 +26,11 @@
 \setlength{\fullcollw}{0.42\textwidth}
 
 %custom \section
-\usepackage{titlesec}				
+\usepackage{titlesec}
 \usepackage{multicol}
 \usepackage{multirow}
 
-%CV Sections inspired by: 
+%CV Sections inspired by:
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{1pt}{2pt}{2pt}
@@ -57,47 +56,51 @@
 \begin{document}
 
 % non-numbered pages
-\pagestyle{empty} 
+\pagestyle{empty}
 
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \color[HTML]{1C033C} \Huge{Simanga H. Khoza} \\[6pt]
 \\
-\textcolor[HTML]{371e77}{\underline{\href{mailto:your@email.com}{\raisebox{-0.05\height}{\faEnvelope} your@email.com}} $|$}
-\textcolor[HTML]{371e77}{\underline{\href{mailto:your@anotheremail.com}{\raisebox{-0.05\height}{\faEnvelope} your@anotheremail.com}} $|$}
-\textcolor[HTML]{371e77}{\href{tel:+525513219900}{\raisebox{-0.05\height}{\faMobile} +52 (00) 1234-5678}}
-
-\textcolor[HTML]{371e77}{\underline{\href{https://github.com/yours}{\raisebox{-0.05\height}{\faGithub} github.com/yours}} $|$}
-\textcolor[HTML]{371e77}{\underline{\href{https://linkedin.com/in/yours}{\raisebox{-0.05\height}{\faLinkedin} linkedin.com/in/yours}}}
+\textcolor[HTML]{371e77}{\underline{\href{https://simanga.dev/}{\raisebox{-0.05\height}{\faGlobe} simanga.dev}} $|$}
+\textcolor[HTML]{371e77}{\underline{\href{mailto:h3khoza@gmail.com}{\raisebox{-0.05\height}{\faEnvelope} h3khoza@gmail.com}} $|$}
+\textcolor[HTML]{371e77}{\href{tel:+27812490306}{\raisebox{-0.05\height}{\faMobile} +27 81 249 0306}}
+\textcolor[HTML]{371e77}{\underline{\href{https://github.com/simanga-dev}{\raisebox{-0.05\height}{\faGithub} github.com/simanga-dev}} $|$}
+\textcolor[HTML]{371e77}{\underline{\href{https://www.linkedin.com/in/simanga/}{\raisebox{-0.05\height}{\faLinkedin} linkedin.com/in/simanga/}}}
+\\[4pt]
 \end{tabularx}
-
 % Education
+
 \section{Education}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{Tecnológico de Monterrey (ITESM)} & \hfill \color[HTML]{371e77} Expected graduation date: Jun. 2025 \\
-\color[HTML]{371e77} B.S. in Computer Science and Technology $|$ {\uline{\href{https://linktoyourcarrer.site}{Link to all courses}}} & \hfill \color[HTML]{4B28A4} \textit{\textbf{GPA: X/100}} \\
-\multicolumn{2}{@{}X@{}}{Relevant Courses: Web Software Construction (JavaScript), Maths and Data Science (Python), OOP (C++), \newline \hspace*{16ex} Security in Software Systems (Swift \& Python), Algorithms and Data Structures I and II (C++)}
+\color[HTML]{1C033C} \textbf{Tshwane University of Technology} & \hfill \color[HTML]{371e77} Graduation date: Jun. 2020 \\
+\color[HTML]{371e77} N.Dip Computer Systems Engineering $|$ {\uline{\href{https://github.com/simanga-dev/simanga-dev.github.io/blob/40c3be6e23f2a5a44615d7b048085a03802c4972/public/static/documents/NDip_Computer_Systems_PhasingOut_2022.pdf}{Link to all courses}}} & \hfill \color[HTML]{4B28A4} \textit{\textbf{AVG: 70/100}} \\
+\multicolumn{2}{@{}X@{}}{Relevant Courses: Web Software Construction (JavaScript), Maths and Data Science (Python), OOP (C++), \newline \hspace*{16ex} Security in Software Systems (C\# \& Python), Algorithms and Data Structures I and II (C++)}
 \end{tabularx}
-
 
 %Experience
 \section{Experience}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{\uline{\href{https://github.com/}{Meta \& Major League Hacking}}} \hfill \color[HTML]{371e77} Oct. 2023 - Present \\[4pt]
-\color[HTML]{371e77}\textbf{\textit{Software Engineer Fellow}}\ \hfill \color[HTML]{4B28A4} \textit{Python, Flask, Git, GitHub} \\[5pt]
+\textbf{\uline{\href{https://expresspros.co.za}{Express Employment Professionals}}} \hfill \color[HTML]{371e77} Oct. 2023 - Present \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{.Net Software Developer}}\ \hfill \color[HTML]{4B28A4} \textit{SQL Server, .Net, Git, JavaScript, C\#, Docker } \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Contributing to Meta's AudioCraft, a Generative AI project focused on processing, generation, and autocompletion.
+        \item Contributing to Meta's AudioCraft, a Generative AI project focused on processing, generation, and autocompletion.
+        \item Creating a Python command-line interface extension with text and audio input validation, to facilitate high-fidelity audio generation for sounds and music.
         \item Creating a Python command-line interface extension with text and audio input validation, to facilitate high-fidelity audio generation for sounds and music.
     \end{itemize}
 \end{minipage}
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{Meta \& Major League Hacking}}} \hfill \color[HTML]{371e77} Jun. 2023 - Sep. 2023 \\[4pt]
-\color[HTML]{371e77}\textbf{\textit{Site Reliability Engineer Fellow}}\ \hfill \color[HTML]{4B28A4} \textit{Python, Bash, MySQL, Flask, HTML, Git, GitHub, Docker, Linux} \\[5pt]
+\color[HTML]{1C033C} \textbf{\uline{\href{https://kriterion.ai}{Kriterion}}} \hfill \color[HTML]{371e77} Jan. 2021 - Sep. 2022 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Software Engineer}}\ \hfill \color[HTML]{4B28A4} \textit{Python, BigQuery, Git, Terraform, Linux, Kubernetes, Argo CD, Helm charts, GitOps} \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed a website on Flask with Jinja, MySQL and a professional Git/GitHub workflow.
+        \item Automated CI/CD pipelines for unit and integration testing, as well as the deployment the web app, database and Nginx using Docker Compose, GitHub Actions and scripting.
+        \item Developed a website on Flask with Jinja, MySQL and a professional Git/GitHub workflow.
         \item Developed a website on Flask with Jinja, MySQL and a professional Git/GitHub workflow.
         \item Automated CI/CD pipelines for unit and integration testing, as well as the deployment the web app, database and Nginx using Docker Compose, GitHub Actions and scripting.
     \end{itemize}
@@ -105,13 +108,15 @@
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{Universal Scientific Industrial Co., Ltd.} \hfill \color[HTML]{371e77} Mar. 2023 - Jun. 2023 \\[4pt]
-\color[HTML]{371e77}\textbf{\textit{Software Engineering Intern}} \hfill \color[HTML]{4B28A4} \textit{PHP, JavaScript, SQL Server, HTML, CSS, Bootstrap, jQuery} \\[5pt]
+\color[HTML]{1C033C} \textbf{\uline{\href{https://kriterion.ai}{Kriterion}}} \hfill \color[HTML]{371e77} Jan. 2020 - Dec. 2021 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Software Engineering Intern}} \hfill \color[HTML]{4B28A4} \textit{Git, JavaScript, React, HTML, CSS, Node, SQL} \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Handled overtime requests and approvals for 2,000+ employees by developing internal back-end systems with PHP.
         \item Displayed graphs and logs in web interfaces of 6,000+ monthly requests using HTML, JavaScript, and Bootstrap.
         \item Reduced reports loading times from 10 to 3 seconds, enhancing SQL queries by up to 60\%.
+        \item Handled overtime requests and approvals for 2,000+ employees by developing internal back-end systems with PHP.
+        \item Displayed graphs and logs in web interfaces of 6,000+ monthly requests using HTML, JavaScript, and Bootstrap.
     \end{itemize}
     \end{minipage}
 \end{tabularx}
@@ -119,8 +124,8 @@
 % Projects
 \section{Projects}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{MySpoti}}} \hfill \color[HTML]{371e77} Jul. 2023 - Ongoing \\[4pt]
-\color[HTML]{371e77}\textbf{\textit{Personalized Spotify tops and insights web application }} \hfill \color[HTML]{4B28A4} \textit{Python, JavaScript, HTML, Flask, Bootstrap, Git} \\[5pt]
+\color[HTML]{1C033C} \textbf{\uline{\href{https://carpentry.simanga.dev/}{Carpentry Shop }}} \hfill \color[HTML]{371e77} Jul. 2023 - Ongoing \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Web Application for placing Order of Carpentry}} \hfill \color[HTML]{4B28A4} \textit{C\#, JavaScript, HTML, PostgreSQL, Docker, Git, GitHub Actions} \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Showcasing user's Spotify top tracks, insights and listening history through visualizations in HTML.
@@ -130,8 +135,8 @@
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{\uline{\href{https://github.com/}{AIWay}}} \hfill \color[HTML]{371e77} Sep. 2022 \\[4pt]
-\color[HTML]{371e77}\textbf{\textit{HACKMTY project to create reports and represent them on a map}} \hfill \color[HTML]{4B28A4} \textit{Python, JavaScript, HTML, Django, Git} \\[5pt]
+\color[HTML]{1C033C} \textbf{\uline{\href{https://user-management.simanga.dev}{User Management}}} \hfill \color[HTML]{371e77} Sep. 2022 - Ongoing \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Web Application that Manage User who Access the System}} \hfill \color[HTML]{4B28A4} \textit{C\#, Entity Framework, Linux, Docker, Git} \\[5pt]
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
         \item Developed a real-time traffic and security alert visualization crowdsourced web page using Google Maps API, featuring heat maps for data representation.
@@ -140,18 +145,18 @@
     \end{minipage}
 \end{tabularx}
 
-% Leadership and Volunteering
-\section{Leadership and Volunteering}
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\color[HTML]{1C033C} \textbf{Club de Algoritmia GDA} \hfill \color[HTML]{371e77} Jun. 2023 - Ongoing \\[5pt]
-\color[HTML]{371e77}\textbf{\textit{Board of Directors}} \\[5pt]
-\begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
-        \item Guiding a community of 550+ CS students in their professional development, technical skills and interest in tech.
-        \item Orchestrating workshops, coding sessions, and events to enhance skills and encourage continuous learning.
-    \end{itemize}
-\end{minipage}
-\end{tabularx}
+% % Leadership and Volunteering
+% \section{Leadership and Volunteering}
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \color[HTML]{1C033C} \textbf{Club de Algoritmia GDA} \hfill \color[HTML]{371e77} Jun. 2023 - Ongoing \\[5pt]
+% \color[HTML]{371e77}\textbf{\textit{Board of Directors}} \\[5pt]
+% \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+%         \item Guiding a community of 550+ CS students in their professional development, technical skills and interest in tech.
+%         \item Orchestrating workshops, coding sessions, and events to enhance skills and encourage continuous learning.
+%     \end{itemize}
+% \end{minipage}
+% \end{tabularx}
 
 \section{Skills}
 \color[HTML]{1C033C}\textbf{Languages:} \\[2pt]
@@ -160,4 +165,13 @@
 \color[HTML]{371e77} \hspace*{4ex} Flask, Django, Git, Linux, Docker, CI/CD\\[3pt]
 \color[HTML]{1C033C}\textbf{Certifications:} \\[2pt]
 \color[HTML]{371e77} \hspace*{4ex} \uline{\href{https://learn.microsoft.com/}{Microsoft SC-900 Certified: Security, Compliance, and Identity Fundamentals}}.
+\end{document}
+
+\section{Certifications}
+\color[HTML]{1C033C}\textbf{Azure DevOps Engineer Expert:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} issued: 8/08/2021 | \textbf{\uline{\href{https://www.credly.com/badges/80f2454f-f8de-4e74-9575-a01edf459fde}{cutt.ly/DRI8NYP}}} \\[3pt]
+\color[HTML]{1C033C}\textbf{Azure Developer Associate:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} issued: 8/06/2021 | \textbf{\uline{\href{https://www.credly.com/badges/2b9449fa-ea3c-4baa-9362-2b1c6f69636e}{cutt.ly/tRI4WYo}}} \\[3pt]
+\color[HTML]{1C033C}\textbf{Azure Fundamentals:} \\[2pt]
+\color[HTML]{371e77} \hspace*{4ex} issued: 26/03/2021 | \textbf{\uline{\href{https://www.credly.com/badges/eb7f2969-df90-4138-b898-bcb9f57389e1}{cutt.ly/sRI3GgJ}}} \\[3pt]
 \end{document}
